@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.log
+.idea/
+.vscode/
+
+datasets/
+checkpoints/
+luts/
+runs/
+results/
+
+# LUT examples write their generated arrays and configuration records here.
+# Keep only the accompanying documentation in version control.
+LUT-pth/*
+!LUT-pth/README.md
+
+# Internal release preparation notes are not part of the public package.
+RELEASE_CHECKLIST.md
+
+*.pth
+*.pt
+*.npy
+*.npz
+*.yuv
+*.pkl
+
+# Data is intentionally bundled with the public release.
+!data/**
+!model-official/**/*.pth
+!model-official/**/*.npy
